@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: var(--side-nav-width);
+    flex-shrink: 0;
+    z-index: 99;
+    width: 15rem;
+    // position: fixed;
+}
+
+.content {
+    flex: 1;
+    // background-color: white
+    height: 100vh;
+}

@@ -1,0 +1,12 @@
+@use '@/styles/abstracts/mixins';
+.home-container {
+    @include mixins.flex-row;
+}
+
+.home-content {
+    width: 62rem;
+    height: 72rem;
+}
+
+.home-navigation {
+}
