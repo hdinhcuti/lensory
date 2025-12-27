@@ -1,4 +1,5 @@
 import Main from '@/components/layouts/main/Main';
+import '@/styles/Global.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { publicRoutes } from './router/Router';
 function App() {

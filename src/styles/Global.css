@@ -2,17 +2,16 @@
 @theme {
     --color-primary: rgb(195, 0, 42);
     --color-black: #333333;
-    --color-gray: #666666;
+    --color-gray: #606770;
 }
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 :root {
     --color-black: #000;
     --color-red: #ff3b5c;
-    --color-white: #f6f6f6;
+    --color-white: rgb(255, 255, 255);
     --sidebar-width: 15rem;
     --color-text-placeholder1: hsla(0, 0%, 100%, 0.4);
     --color-text-placeholder2: hsla(0, 0%, 100%, 13);
@@ -23,8 +22,8 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--color-white);
+    color: var(--color-black);
 }
 
 input {
