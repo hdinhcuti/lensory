@@ -45,9 +45,9 @@ const Feed = ({ item }: IProps) => {
             <div className="content-feed w-full pb-5">
                 <p className="description text-[15px] w-full leading-5 break-words p-3">{item.description}</p>
                 <div>
-                    <Link to={`/post/?pid=${item.id}`}>
+                    <a href={`/post/?pid=${item.id}`}>
                         <img src={iconAsset.feed1} alt="" className="w-full h-full object-cover" />
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>

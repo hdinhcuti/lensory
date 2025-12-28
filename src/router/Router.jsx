@@ -1,6 +1,6 @@
 import { PATH_CONFIG } from '@/configs/path-config';
 import Home from '@/pages/Home/Home';
-import PhotoDetail from '@/pages/PhotoDetail/PhotoDetail';
+import PostDetail from '@/pages/PostDetail/PostDetail';
 import Profile from '@/pages/Profile/Profile';
 
 export const publicRoutes = [
@@ -14,6 +14,6 @@ export const publicRoutes = [
     },
     {
         path: PATH_CONFIG.post,
-        component: PhotoDetail,
+        component: PostDetail,
     },
 ];

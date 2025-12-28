@@ -19,10 +19,10 @@ const PhotoDetail = () => {
     };
 
     return (
-        <div className="w-full h-[1000px] pt-[100px] flex justify-center">
+        <div className="w-full md:h-[900px] h-[950px] md:pt-[100px] flex justify-center">
             <div
                 className={`flex ${feed.image ? 'md:flex-row flex-col' : ''} justify-center bg-white ${
-                    feed.image ? 'w-[1000px] md:h-[700px] h-[900px]' : 'h-[200px]'
+                    feed.image ? 'w-[1000px] md:h-[600px] h-[900px]' : 'h-[200px]'
                 } `}
             >
                 {feed.image && (

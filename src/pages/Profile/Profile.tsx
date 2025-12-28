@@ -63,7 +63,7 @@ const Profile = () => {
     // const { username } = useParams();
 
     return (
-        <div className="min-h-[1000px] h-full flex lg:flex-row flex-col justify-center lg:items-start items-center gap-3">
+        <div className="min-h-[1000px] h-full flex lg:flex-row flex-col justify-center lg:items-start items-center gap-3 p-5">
             <div className="flex flex-col max-w-[550px] w-full gap-5 lg:sticky top-20">
                 <div className="profile-info bg-white rounded-xl h-105 p-5 ">
                     <div className="flex flex-col items-center gap-5">
